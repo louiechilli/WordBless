@@ -49,7 +49,6 @@ sleep 1
 if [[ "$VERSION" < "$PHP" ]];
     then
       echo -e "${BAD} ❌ - PHP Version Out of Date ($VERSION) ${NC}"
-      read -p "Press any key to exit"
       exit
       else
       echo -e  "${GOOD} ✔ - PHP Version OK ($VERSION) ${NC}"
